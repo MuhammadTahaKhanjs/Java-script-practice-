@@ -1,0 +1,24 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: heading;
+    background-color: blue;
+    font-size: 3.0em;
+    animation-iteration-count: infinite;
+
+    animation-duration: 5s;
+}
+
+@keyframes heading {
+    form {
+        background-color: blue;
+        font-size: 3.0em;
+    }
+
+    To {
+        background-color: red;
+        font-size: 2.0em;
+    }
+
+}
